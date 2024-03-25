@@ -1,0 +1,7 @@
+﻿1>------ Build started: Project: OOPLab2Tpl, Configuration: Debug|Win32 ------
+1>  OOPLab2Tpl.cpp
+1>C:\Users\Dubets\source\repos\lab2oop-24-DubetsIvan\OOPLab2Tpl\OOPLab2Tpl.cpp(15,57): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+1>C:\Users\Dubets\source\repos\lab2oop-24-DubetsIvan\OOPLab2Tpl\OOPLab2Tpl.cpp(16,42): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+1>C:\Users\Dubets\source\repos\lab2oop-24-DubetsIvan\OOPLab2Tpl\OOPLab2Tpl.cpp(31,5): error C2065: 'esle': undeclared identifier
+1>C:\Users\Dubets\source\repos\lab2oop-24-DubetsIvan\OOPLab2Tpl\OOPLab2Tpl.cpp(31,10): error C2143: syntax error: missing ';' before 'if'
+========== Build: 0 succeeded, 1 failed, 0 up-to-date, 0 skipped ==========
