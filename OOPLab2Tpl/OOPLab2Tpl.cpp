@@ -5,17 +5,21 @@ using namespace std;
 int taskOne() {
 
     int a, b, c, d;
-    float x, y;
-    std::cout << "Input a, b, c, d:" << endl;
+    int result;
+    float check_res;
+    cout << " Calculation of expressions using bitwise operations  \n";
+    cout << "Enter A:";
     cin >> a;
+    cout << "Enter B:";
     cin >> b;
+    cout << "Enter C:";
     cin >> c;
+    cout << "Enter D:";
     cin >> d;
-
-    x = (((17 << 4) * a + (312 << 4) * c) >> 5) - (b << 7) + (d << 7);
-    y = ((17 * a + 312 * c) / 32) - b * 120 + d * 127;
-
-    std::cout << "x = " << x << endl << "y = " << y << endl << "a = " << a << endl << "b = " << b << endl << "c = " << c << endl << "d = " << d << endl;
+    result = ((((a << 4) + a) + ((c << 3) + (c << 4) + (c << 5) + (c << 8))) >> 5) - ((b << 7) - (b << 3)) + ((d << 7) - d);
+    cout << "Result:" << result << endl;
+    check_res = ((a * 17 + c * 312) / 32) - b * 120 + d * 127;
+    printf("Check result: %0.5f", check_res);
     return 0;
 }
 
@@ -84,10 +88,11 @@ int main() {
     if (t == 1) {
         cout << "You choose task one:" << endl;
         taskOne();
-
+        break;
     }
     if (t == 2) {
         call();
+        break;
     }
     else {
         cout << "You choose wrong task. Choose 1 or 2!" << endl;
